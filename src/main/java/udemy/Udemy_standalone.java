@@ -11,8 +11,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import web.pageObject.HomePage;
-import web.pageObject.LoginPage;
+import pageObject.HomePage;
+import pageObject.LoginPage;
 
 
 public class Udemy_standalone {

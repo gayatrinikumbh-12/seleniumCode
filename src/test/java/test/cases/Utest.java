@@ -1,4 +1,4 @@
-package udemy;
+package test.cases;
 
 import java.time.Duration;
 
@@ -6,30 +6,31 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import web.pageObject.CartPage;
-import web.pageObject.HomePage;
-import web.pageObject.LoginPage;
-import web.pageObject.OrderPage;
-import web.pageObject.PaymentPage;
+import pageObject.CartPage;
+import pageObject.HomePage;
+import pageObject.LoginPage;
+import pageObject.OrderPage;
+import pageObject.PaymentPage;
 
 
 
 
 
-public class test {
+
+
+public class Utest {
 
 	//public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
 	@Test
-	
 	public void appTest() throws InterruptedException
 	{
 	
 		System.out.println("hello");
 		
 		
-		String productName ="QWERTY"; //"ZARA COAT 3";
+		String productName ="ZARA COAT 3";//"QWERTY"; //
 		
 		//WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
